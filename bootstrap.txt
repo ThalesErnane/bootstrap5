@@ -1,0 +1,21 @@
+Colunas 
+
+Alinhamento Vertical - row 
+Em cima: align-items-start
+No meio: align-items-center
+Em baixo: aligh-items-end
+
+Alinhamento Vertical - col
+Em cima: align-self-start
+No meio: align-self-center
+Em baixo: aligh-self-end
+
+Alinhamento Horizontal - row
+justify-content-start
+justify-content-center
+justify-content-end
+justify-content-around
+justify-content-between
+justify-content-evenly
+
+

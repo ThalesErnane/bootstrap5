@@ -7,12 +7,147 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" type='text/css' href="css/bootstrap.min.css">
     <script  type="text/javascript" src='js/bootstrap.min.js'></script>
+
+    <style type="text/css">
+        .exemplo-cor {
+            background: #f9f9f9;
+            border: solid 1px #ddd;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .dark{
+            background: #000;
+            color: white;
+        }
+
+
+    </style>
 </head>
 <body>
 
     <section>
         <div style="border: solid 1px; height: 400px;" class="container-fluid">
+            <div class="row">
+                <div class="col exemplo-cor">
+                    Coluna
+                </div>
+                <div class="col exemplo-cor" >
+                    Coluna
+                </div>
+                <div class="col exemplo-cor" >
+                    Coluna
+                </div>
+                <div class="col exemplo-cor">
+                    Coluna
+                </div>
+                <div class="col exemplo-cor" >
+                    Coluna
+                </div>
+                <div class="col exemplo-cor" >
+                    Coluna
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1 exemplo-cor">
+                    Coluna
+                </div>
+                <div class="col-1 exemplo-cor">
+                    Coluna
+                </div>
+                <div class="col-1 exemplo-cor">
+                    Coluna
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="col-sm-3 exemplo-cor">
+                    Coluna
+                </div>
+                <div class="col-sm-3 exemplo-cor">
+                    Coluna
+                </div>
+                <div class="col-sm-3 exemplo-cor">
+                    Coluna
+                </div>
+            </div>
+
+            
+            <div class="row">
+                <div class="col-6 col-sm-3 exemplo-cor dark">
+                    Coluna
+                </div>
+                <div class="col-6 col-sm-3 exemplo-cor dark">
+                    Coluna
+                </div>
+                <div class="col-6 col-sm-3 exemplo-cor dark">
+                    Coluna
+                </div>
+            </div>
+
+            <div class="row" style= "min-height: 120px; border: solid red">
+                <div class="col-4 align-self-start exemplo-cor dark">
+                    Alinhamento na row
+                </div>
+                <div class="col-4 align-self-center exemplo-cor dark">
+                    Alinhamento na row
+                </div>
+                <div class="col-4 align-self-end exemplo-cor dark">
+                    Alinhamento na row
+                </div>
+            </div>
+
+            <div class="row" style= "min-height: 120px; border: solid blueviolet">
+                <div class="col-4 align-self-start exemplo-cor dark">
+                    Alinhamento Horizontal 
+                </div>
+                <div class="col-4 align-self-center exemplo-cor dark">
+                    Alinhamento Horizontal 
+                </div>
+                <div class="col-4 align-self-end exemplo-cor dark">
+                    Alinhamento Horizontal 
+                </div>
+            </div>
+
+
+            <div class="row justify-content-between" style= "min-height: 120px; border: solid blueviolet">
+                <div class="col-4  exemplo-cor dark">
+                    Alinhamento Horizontal 
+                </div>
+                <div class="col-4  exemplo-cor dark">
+                    Alinhamento Horizontal 
+                </div>
+                <div class="col-4  exemplo-cor dark">
+                    Alinhamento Horizontal 
+                </div>
+            </div>
+                
+            <div class="row" style= "min-height: 120px; border: solid green">
+                <div class="col-2 offset-lg-3 offset-sm-1 exemplo-cor   dark">
+                    OffSet
+                </div>
+                <div class="col-2 exemplo-cor  dark">
+                    OffSet
+                </div>
+                <div class="col-2 exemplo-cor dark">
+                    OffSet
+                </div>
+            </div>
+
+                            
+            <div class="row" style= "min-height: 120px; border: solid yellow">
+                <div class="col-2 order-3 exemplo-cor   dark">
+                    1
+                </div>
+                <div class="col-2 order-1 exemplo-cor  dark">
+                    2
+                </div>
+                <div class="col-2 order-2 exemplo-cor dark">
+                    3
+                </div>
+            </div>
+      
+      
         </div>
 
     </section>
