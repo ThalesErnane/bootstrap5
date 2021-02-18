@@ -21,7 +21,7 @@ Alguns temas abordados no curso:
 Layout desenvolvido com as técnicas abordadas.
 
 
-![](/imagens/Capiturar.PNG)
+![Layout](imagens/Capiturar.PNG)
 
 
 [Certificado do Curso - Udemy](https://www.udemy.com/certificate/UC-a15171f8-1a0e-4934-8c51-47528c50b148/ "certificado do curso")
