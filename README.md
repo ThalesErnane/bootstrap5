@@ -18,7 +18,9 @@ Alguns temas abordados no curso:
 - Criar Menus DropDpwn
 - Criar Caixas de Alert e Modal (Popup)
 
-Layout desenvolvido com as técnicas abordadas.
+---
+
+#### Layout desenvolvido com as técnicas abordadas.
 
 
 ![Layout](/imagens/Capturar.PNG)
