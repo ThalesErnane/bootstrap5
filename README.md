@@ -17,7 +17,7 @@ Alguns temas abordados no curso:
 - Botões e Links do Bootstrap
 - Criar Menus DropDpwn
 - Criar Caixas de Alert e Modal (Popup)
-
+- Criar Site Responsivo
 ---
 
 ### Layout desenvolvido com as técnicas abordadas.
