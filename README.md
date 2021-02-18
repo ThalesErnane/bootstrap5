@@ -20,7 +20,7 @@ Alguns temas abordados no curso:
 
 ---
 
-#### Layout desenvolvido com as técnicas abordadas.
+### Layout desenvolvido com as técnicas abordadas.
 
 
 ![Layout](/imagens/Capturar.PNG)
