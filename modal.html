@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+            <meta charset='utf-8'>
+            <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+            <title>Curso de Bootstrap 5 Accordion</title>
+            <meta name='viewport' content='width=device-width, initial-scale=1'>
+            <link rel="stylesheet" type='text/css' href="css/bootstrap.min.css">
+            <script  type="text/javascript" src='js/bootstrap.min.js'></script>
+</head>
+<body>
+    <section>
+        <div class="container mt-3">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#meuModal" class="btn btn-success">Veja Mais</button>
+            <div id="meuModal" class="modal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5>Título do modal</h5>
+                            <button type="button" data-bs-dismiss="modal" class="btn-close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Inicio</h4>
+                            <p>Conteudo do seu modal</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" data-bs-dismiss="modal" class="btn btn-danger">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+</body>
+</html>

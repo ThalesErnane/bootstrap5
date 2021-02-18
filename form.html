@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Curso de Bootstrap 5 Forms</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" type='text/css' href="css/bootstrap.min.css">
+        <script  type="text/javascript" src='js/bootstrap.min.js'></script>
+    
+        <style type="text/css">
+            .fundo {
+                background: #f7f7f7;
+                border: solid 1px #ddd;
+            }
+
+        </style>
+    </head>
+<body>
+    <section>
+        <div class="container">
+            <div class="row justify-content-center mt-3">
+                <div class="col-6">
+                    <form class="needs-validation" name="formulario-teste" method="post" action=""> 
+                        <div class="row mt-3">
+                            <label class="form-label col-12">Nome de Usuário: </label>                            </label>
+                            <div class="input-group">
+                                <span class="input-group-text">@</span>
+                                <input class="form-control" type="text" name="usuario">
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <label class="form-label col-12">Link Personalizado: </label>                            </label>
+                            <div class="input-group">
+                                <span class="input-group-text">https://www.exemplo/usuario/</span>
+                                <input class="form-control" type="text" name="usuario">
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <label class="form-label col-12">Preço do Produto: </label>                            </label>
+                            <div class="input-group">
+                                <span class="input-group-text">R$</span>
+                                <input class="form-control" type="text" name="preco">
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <label class="form-label col-4">Nome: </label>                            </label>
+                            <div class="col-12">
+                                <input required class="form-control col-4" type="text" name="nome">
+                                <div class="valid-feedback">
+                                    Correto !
+                                </div>
+                                <div class="invalid-feedback">
+                                    Preencha corretamente o campo nome !
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <label class="form-label col-4">Email: </label>                            </label>
+                            <div class="col-8">
+                                <input required class="form-control" type="email" name="email">
+                                <div class="invalid-feedback">
+                                    Preencha um email valido !
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <label class="form-label col-4">Enviar Um Arquivo: </label>                            </label>
+                            <div class="col-8">
+                                <input class="form-control" type="file" name="enviar">
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <label class="form-label col-4">Selecione a Cor: </label>                            </label>
+                            <div class="col-8">
+                                <input class="form-control form-control-color" type="color" name="color">
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <label class="form-label col-4">Lista de Cursos: </label>                            </label>
+                            <div class="col-8">
+                                <input list="listaCursos" class="form-control"  name="cursos" placeholder="Escreva o nome do curso">
+                                <datalist id="listaCursos">
+                                    <option value="Html5"></option>
+                                    <option value="Java"></option>
+                                    <option value="JavaScript"></option>
+                                    <option value="SqlServer"></option>
+                                </datalist>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <label class="form-label col-4">Selecione o Cursos: </label>                            </label>
+                            <div class="col-8">
+                                <select required class="form-select"><!-- multiple -->
+                                    <option value="" selected>--Selecione--</option>
+                                    <option value="Html5">Html5</option>
+                                    <option value="Java">Java</option>
+                                    <option value="JavaScript">JavaScript</option>
+                                    <option value="SqlServer">SqlServer</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <label class="form-label col-4">Central de Notificações: </label>                            </label>
+                            <div class="col-8">
+                                <div class="form-check">
+                                    <input id="promo" class="form-check-input" type="checkbox" name="note">
+                                    <label for="promo" class="form-check-label">Promoções</label>
+                                </div>
+                                <div class="form-check"> <!-- checked ja vem o atributo marcado na pg-->
+                                    <input checked id="info" class="form-check-input" type="checkbox" name="info">
+                                    <label for="info" class="form-check-label">Informações</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <label class="form-label col-4 ">Genero: </label>                            </label>
+                            <div class="col-8">
+                                <div class="form-check form-check-inline">
+                                    <input  id="mas" class="form-check-input" type="radio" name="genero">
+                                    <label for="mas" class="form-check-label">Masculino</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input  id="fem" class="form-check-input" type="radio" name="genero">
+                                    <label for="fem" class="form-check-label">Feminino</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <label class="form-label col-4">Gostaria de Receber Nossas Promoções: </label>                            </label>
+                            <div class="col-8">
+                                <div class="form-check form-switch">
+                                    <input id="news" class="form-check-input" type="checkbox" name="note">
+                                    <label for="news" class="form-check-label">Receber Promoções e Novidades</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3 mb-4">
+                            <label class="form-label col-12 ">Faixa de Preço: </label>                            </label>
+                            <div class="col-12">
+                                <input min="1" max="5" class="form-range" type="range" name="precos">
+                            </div>
+                        </div>
+                        <div class="row mt-3 mb3 col-4 ms-0">
+                            <a href="#" class="btn btn-outline-info">Mais Informações</a>
+                        </div>
+
+                        <button onclick="validador()" type="submit" class="btn btn-outline-success mt-3 mb-4">Enviar</button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <label class="form-label col-4">Nome: </label>
+                        <div class="col-6">
+                        <input value="Thales Ernane" disabled class="form-control" type="text" name="nome">
+                        </div>    
+                    </div>
+                    <div>
+                        <label class="form-label">Email: </label>  readonly envia os dados do campo mesmo em desable 
+                        <input value="talesernani@gmail.com" readonly class="form-control" type="email" name="email">
+                    </div>
+                    <div>
+                        <label class="form-label">Email: </label>  
+                        <input value="talesernani@gmail.com"  class="form-control-sm" type="email" name="email">
+                    </div>
+                    <div>
+                        <label class="form-label">Email: </label> 
+                        <input value="talesernani@gmail.com"  class="form-control-lg" type="email" name="email">
+                    </div>
+                    <di>
+                        <label for="msg" class="form-label">Sua Mensagem</label>
+                        <textarea id="msg" class="form-control" name="msg" id="" cols="30" rows="10"></textarea>
+                    </di>
+                </div>
+            </form>
+            --> 
+
+            <!--
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <label class="form-label">Nome: </label>
+                        <input placeholder="Digite seu Nome" class="form-control" type="text" name="nome">
+                    </div>
+                    <div class="col">
+                        <label class="form-label">Email: </label>
+                        <input placeholder="Digite seu Email" class="form-control" type="email" name="email">
+                    </div>
+                </div>
+            </form>
+            -->
+    </section>
+    <script type="text/javascript">
+            var campoAtivo = document.activeElement;
+            campoAtivo.addEventListener("focusin", verificarCampo); // pega o campo q esta ativo no momento 
+
+            function verificarCampo(){
+                var valida = document.activeElement.parentNode; // pega o elemento pai, na div q envolve o input
+                valida.classList.add('was-validated');    
+            }
+
+            function validador(){
+                var nome = document.getElementsByName("nome")[0];
+                var email = document.getElementsByName("email")[0];
+
+                if(nome.value.length < 3){ // se o nome digitado é menor q 3 
+                    // adiciona a class ao pai do elemento 
+                    nome.parentNode.classList.add('was-validated');
+                    return false; // não submete o form
+                }
+
+                if(email.value.length < 3 ){
+                    email.parentNode.classList.add('was-validated');
+                    return false;
+
+                }
+            };
+
+    </script>
+
+</body>
+</html>

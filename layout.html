@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Curso de Bootstrap 5 - Layout </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type='text/css' href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script  type="text/javascript" src='js/bootstrap.min.js'></script>
+</head>
+<body>
+    <header class="top shadow-sm sticky-top" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="/imagens/spacex-logo.png" alt="SpaceX">
+                </div>
+                <div class="col-8">
+
+                      <nav class="navbar navbar-dark d-md-none bg-dark justify-content-end">
+                        <div class="container-fluid justify-content-end">
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuMobile" >
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                        </div>
+                      </nav>
+
+
+                    <div class="d-none d-md-block">
+                        <nav class="nav justify-content-end"> 
+                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#quem">Quem Sou</a>
+                        <a class="nav-link" href="#cursos">Cursos</a>
+                        <a class="nav-link" href="#clientes">Clientes</a>
+                        <a class="nav-link" href="#contato">Contato</a>
+                        <a class="btn btn-success rounded-pill" href="#https://api.whatsapp.com/send?phone=5511985488612">(55) 11 98548-8612</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="collapse" id="menuMobile">
+                        <nav class="nav flex-column justify-content-end"> 
+                            <a class="nav-link" href="#home">Home</a>
+                            <a class="nav-link" href="#quem">Quem Sou</a>
+                            <a class="nav-link" href="#cursos">Cursos</a>
+                            <a class="nav-link" href="#clientes">Clientes</a>
+                            <a class="nav-link" href="#contato">Contato</a>
+                            <a class="btn btn-success rounded-pill" href="#https://api.whatsapp.com/send?phone=5511985488612">(55) 11 98548-8612</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="banner-topo">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 order-2 order-md-1">
+                    <img src="/imagens/perfil.png" class="img-destaque d-block mx-auto mt-3 " alt="batman">
+                </div>
+                <div class="col-12 col-md-6 align-self-center order-md-2">
+                    <h1 class="cor-tema">Batman</h1>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sequi vero quia aspernatur sit officia, tenetur voluptatum qui cumque corporis facere deserunt ab provident quas commodi vitae recusandae incidunt corrupti?</p>
+                    <a href="#" class="btn btn-primary rounded-pill ">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="destaque ">
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-6 col-md-3 text-center">
+                    <img class="d-block mx-auto mt-3" src="/imagens/cerebro.png" alt="inteligência">
+                    <h4 class="cor-tema mt-3">Titulo</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, quod. Ducimus officia eius pariatur.</p>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img class="d-block mx-auto mt-3" src="/imagens/dinheiro.png" alt="dinheiro">
+                    <h4 class="cor-tema mt-3">Titulo</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, quod. Ducimus officia eius pariatur.</p>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img class="d-block mx-auto mt-3" src="/imagens/carro.png" alt="carro">
+                    <h4 class="cor-tema mt-3">Titulo</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, quod. Ducimus officia eius pariatur.</p>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img class="d-block mx-auto mt-3" src="/imagens/jl.png" alt="liga da justiça">
+                    <h4 class="cor-tema mt-3">Titulo</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, quod. Ducimus officia eius pariatur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="quemsomos" id="quem">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 align-self-center ">
+                    <p class="h1">Texto em Destaque</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dignissimos necessitatibus odit autem repellendus sit laudantium voluptatibus labore saepe iste dolorum adipisci pariatur dolores tempora, quas dolorem hic, incidunt deleniti.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam deleniti, porro qui minus, rem deserunt dolorum eveniet, beatae maxime sit dolores. Aliquam, ipsa itaque! Voluptate quis saepe eaque veritatis iusto?</p>
+                </div>
+                <div class="col-12 col-md-7">
+                    <img src="/imagens/arkan.png" class="img-destaque d-block mx-auto mt-3 align-self-center" alt="liga">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards" id="cursos">
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card" >
+                        <img src="/imagens/curso1.png" class="card-img-top" alt="Tecnicas para vencer o Joker">
+                        <div class="card-body">
+                          <h5 class="card-title">Joker</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Mais Informações</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card" >
+                        <img src="/imagens/curso2.png" class="card-img-top" alt="Aprenda novas habilidades">
+                        <div class="card-body">
+                          <h5 class="card-title">Batman</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Mais Informações</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card" >
+                        <img src="/imagens/curso3.png" class="card-img-top" alt="Seja invencivel como ele">
+                        <div class="card-body">
+                          <h5 class="card-title">DeadPool</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Mais Informações</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="clientes" id="clientes">
+        <div class="container mt-5 mb-5">
+            <div class="row text-center">
+                <div class="col-12">
+                    <p class="h3">Conheça Alguns de</p>
+                    <h2 class="h1">Nossos Clientes</h2>
+                </div>
+
+        
+                <div id="meuslide" class="carousel carousel-dark carousel slide " data-bs-ride="carousel">
+     
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#meuslide" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#meuslide" data-bs-slide-to="1"></li>
+                    </ol>
+           
+                    <div class="carousel-inner mt-5">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="co-6 col-md-3">
+                                    <img class="d-block w-100" src="/imagens/arkan.png" alt="teste">
+                                </div>
+                                <div class="co-6 col-md-3">
+                                    <img class="d-block w-100" src="/imagens/arkan.png" alt="teste">
+                                </div>
+                                <div class="co-6 col-md-3">
+                                    <img class="d-block w-100" src="/imagens/arkan.png" alt="teste">
+                                </div>
+                                <div class="co-6 col-md-3">
+                                    <img class="d-block w-100" src="/imagens/arkan.png" alt="teste">
+                                </div>
+                            </div>
+                        </div>   
+                        <div class="carousel-item ">
+                            <div class="row">
+                                <div class="co-6 col-md-3">
+                                    <img class="d-block w-100" src="/imagens/arkan.png" alt="teste">
+                                </div>
+                                <div class="co-6 col-md-3">
+                                    <img class="d-block w-100" src="/imagens/arkan.png" alt="teste">
+                                </div>
+                                <div class="co-6 col-md-3">
+                                    <img class="d-block w-100" src="/imagens/arkan.png" alt="teste">
+                                </div>
+                                <div class="co-6 col-md-3">
+                                    <img class="d-block w-100" src="/imagens/arkan.png" alt="teste">
+                                </div>
+                            </div>
+                        </div>                    
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="contato" id="contato">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-12 col-md-3 mt-5 mb-5">
+                    <h4>Endereço</h4>
+                    <p>Rua </p>
+                </div>
+                <div class="col-12 col-md-3 mt-5 mb-5">
+                    <h4>Contato</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                      </ul>
+                </div>
+                <div class="col-12 col-md-3 mt-5 mb-5">
+                    <h4>Contato</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                      </ul>
+                </div>
+                <div class="col-12 col-md-3 mt-5 mb-5">
+                    <h4>Contato</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>
